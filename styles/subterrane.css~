@@ -1,0 +1,135 @@
+body {
+    background-image: url('../media/rockwall.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #deff9a;
+    color: #ffe690;
+    font-family: sans;
+}
+
+footer {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    /*color: #fbcb38;*/
+    color: #38cbfb;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.shadow {
+    box-shadow:         0px 0px 10px 10px #000000 inset;
+    -o-box-shadow:      0px 0px 10px 10px #000000 inset;
+    -moz-box-shadow:    0px 0px 10px 10px #000000 inset;
+    -webkit-box-shadow: 0px 0px 10px 10px #000000 inset;
+    -ms-box-shadow:     0px 0px 10px 10px #000000 inset;
+}
+
+#nav {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    font-weight: bold;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nav > a, #nav > a:link, #nav > a:visited {
+    /*top: 40px;*/
+    top: 0px;
+    position: relative;
+    text-align: center;
+    display: block;
+    float: left;
+    color: #fbcb38;
+    width: 20%;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	transition:         background-color 0.2s ease-in;
+	-moz-transition:    background-color 0.2s ease-in;
+	-webkit-transition: background-color 0.2s ease-in;
+	-o-transition:      background-color 0.2s ease-in;
+	-ms-transition:     background-color 0.2s ease-in;
+}
+
+#nav > a:hover, #nav > a:active {
+    background-color: #000000;
+}
+
+#nav > div {
+    position: absolute;
+    top: 10px;
+    opacity: 0.7;
+    background-color: #000000;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px;
+    height: 30px;
+}
+
+#nav > a > span {
+    display: block;
+}
+
+#banner {
+    width: 100%;
+}
+
+#banner > img {
+    display: block;
+    height: 300px;
+    z-index: 0;
+}
+
+#text-banner {
+    /*position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -500px;*/
+    z-index: 10;
+}
+
+#banner > div {
+    overflow: hidden;
+}
+
+#img-container {
+    position: relative;
+    padding: 30px;
+}
+
+#img-container > div {
+    position: absolute;
+    height: 270px;
+    background-color: #000000;
+    opacity: 0.7;
+    /*width: 1100px;*/
+    /*top: 110px;*/
+    top: 15px;
+    margin-left: -30px;
+    /*left: 50%;
+    margin-left: -550;*/
+    width: 100%;
+    z-index: -1;
+}
+
+#main-container {
+    width: 850px;
+    background-color: #1c1c1c;
+    padding: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0c0c0c;
+    opacity: 0.8;
+}
